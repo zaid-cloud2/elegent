@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Navbar and Header Example</title>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+  <style>
+    /* Custom CSS for the header */
+    .header {
+      position: relative;
+      text-align: center;
+      color: #fff;
+      height: 300px;
+      padding: 50px;
+      background: linear-gradient(rgb(255, 94, 1), rgba(255, 149, 0, 0.6)), url("./bg1.jpg") no-repeat center center/cover;
+    }
+
+    .bottom {
+      background: linear-gradient(rgb(0, 0, 0, .9), rgba(0, 0, 0, .9)), url("./bg1.jpg") no-repeat center center/cover;
+
+    }
+
+    .header-text {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    .dots-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      background-color: white;
+      border-radius: 50%;
+      margin: 0 5px;
+      cursor: pointer;
+    }
+
+    .form-container {
+      margin: 0 auto;
+    }
+
+    .form-group input {
+      border: none;
+      border-bottom: 1px solid #000;
+      background: transparent;
+      border-radius: 0;
+    }
+    .form-group input:hover,
+    .form-group input:focus,
+    .form-group input:active {
+      border: none;
+      border-bottom: 1px solid #000;
+      background: transparent;
+      border-radius: 0;
+      box-shadow: none;
+      
+    }
+    .form-group  textarea:hover,
+    .form-group  textarea:focus,
+    .form-group  textarea:active {
+      border: none;
+      border-bottom: 1px solid #000;
+      background: transparent;
+      border-radius: 0;
+      box-shadow: none;
+      
+    }
+    .form-group textarea {
+      border: none;
+      border-bottom: 1px solid #000;
+      background: transparent;
+      border-radius: 0;
+    }
+    .btn-primary{
+      background-color: red;
+      border: red;
+    }
+    .btn-primary:hover,
+    .btn-primary:focus,
+    .btn-primary:active {
+      background-color: rgb(228, 20, 20);
+      border-color: rgb(228, 20, 20);
+      
+    }
+  </style>
+  </style>
+</head>
+
+<body style="background-color: gainsboro;">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="./logo-black.png" alt="logo" style="width: 80%;"></a>
+    <!-- Add your navigation links here -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="header">
+    <div style="width: 50%; margin: auto;">
+      <h1 class="header-text">Best Template for Creative Business</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ad praesentium quod ullam tenetur quaerat ea
+        iure omnis neque error. </p>
+      <button class="btn btn-primary" style="padding: 5px 20px; border-radius: 5rem;">Get
+        started</button>
+    </div>
+  </header>
+
+  <section style="display: flex; justify-content: center; margin-top: 5rem; margin-bottom: 5rem;">
+    <div
+      style="width: 55%; text-align: center; display: flex; justify-content: center; flex-direction: column; align-items: center;">
+      <h3 style="color: red;">WE ARE BEST AT OUT SERVICE</h3>
+      <P style="color: gray;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique eos illo vitae
+        doloribus, reprehenderit iste!</P>
+      <div style="width: 40%; height: 1px; background-color: gray; display: flex; justify-content: center;">
+        <div style="background-color: rgb(255, 58, 3); width: 35%; height: 2px;"></div>
+      </div>
+    </div>
+  </section>
+
+  <section
+    style=" width: 100%; margin: auto; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 20px;">
+    <div
+      style="width: 25%; gap: 10px; text-align: center; background-color: white; padding: 20px 22px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+      <h2>icon</h2>
+      <h4>Chart Line</h4>
+      <div style="width: 30%; height: 2px; background-color: gray;"></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, perferendis, , possimus ad enim iusto quo
+        sunt fugit dignissimos.
+        Quas.</p>
+    </div>
+
+    <div
+      style="width: 25%; gap: 10px; text-align: center; background-color: white; padding: 20px 22px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+      <h2>icon</h2>
+      <h4>Quick Anoucments</h4>
+      <div style="width: 30%; height: 2px; background-color: gray;"></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, perferendis, , possimus ad enim iusto quo
+        sunt fugit dignissimos.
+        Quas.</p>
+    </div>
+
+    <div
+      style="width: 25%; gap: 10px; text-align: center; background-color: white; padding: 20px 22px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+      <h2>icon</h2>
+      <h4>Mark Location</h4>
+      <div style="width: 30%; height: 2px; background-color: gray;"></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, perferendis, , possimus ad enim iusto quo
+        sunt fugit dignissimos.
+        Quas.</p>
+    </div>
+
+
+    <div
+      style="width: 25%; gap: 10px; text-align: center; background-color: white; padding: 20px 22px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+      <h2>icon</h2>
+      <h4>Bug Solution</h4>
+      <div style="width: 30%; height: 2px; background-color: gray;"></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, perferendis, , possimus ad enim iusto quo
+        sunt fugit dignissimos.
+        Quas.</p>
+    </div>
+
+
+    <div
+      style="width: 25%; gap: 10px; text-align: center; background-color: white; padding: 20px 22px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+      <h2>icon</h2>
+      <h4>Fast Communication</h4>
+      <div style="width: 30%; height: 2px; background-color: gray;"></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, perferendis, , possimus ad enim iusto quo
+        sunt fugit dignissimos.
+        Quas.</p>
+    </div>
+
+    <div
+      style="width: 25%; gap: 10px; text-align: center; background-color: white; padding: 20px 22px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+      <h2>icon</h2>
+      <h4>Clean Design</h4>
+      <div style="width: 30%; height: 2px; background-color: gray;"></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, perferendis, , possimus ad enim iusto quo
+        sunt fugit dignissimos.
+        Quas.</p>
+    </div>
+  </section>
+  <section style="display: flex; justify-content: center; margin-top: 5rem; margin-bottom: 5rem;">
+    <div
+      style="width: 55%; text-align: center; display: flex; justify-content: center; flex-direction: column; align-items: center;">
+      <h3 style="color: red;">Check are recent work</h3>
+      <P style="color: gray;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique eos illo vitae
+        doloribus, reprehenderit iste!</P>
+      <div style="width: 40%; height: 1px; background-color: gray; display: flex; justify-content: center;">
+        <div style="background-color: rgb(255, 58, 3); width: 35%; height: 2px;"></div>
+      </div>
+    </div>
+  </section>
+
+  <section style="margin-bottom: 5rem;">
+    <div style="display: flex; flex-wrap: wrap; margin: auto;">
+      <img src="./gall1.jpg" alt="" style="width: 33%;">
+      <img src="./gall2.jpg" alt="" style="width: 33%;">
+      <img src="./gall3.jpg" alt="" style="width: 33%;">
+      <img src="./gall4.jpg" alt="" style="width: 33%;">
+      <img src="./gall5.jpg" alt="" style="width: 33%;">
+      <img src="./gall6.jpg" alt="" style="width: 33%;">
+      <img src="./gall7.jpg" alt="" style="width: 33%;">
+      <img src="./gall8.jpg" alt="" style="width: 33%;">
+      <img src="./gall9.jpg" alt="" style="width: 33%;">
+    </div>
+  </section>
+  <section class="header bottom" style="margin-bottom: 5rem;">
+    <div style="width: 50%; margin: auto;">
+      <h1 class="header-text">icon</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ad praesentium quod ullam tenetur quaerat ea
+        iure omnis neque error. </p>
+      <p style="color: gold; margin-top: 2rem; font-weight: bolder;">Zaid Khalid</p>
+      <p style="color: white; font-weight: bolder; margin-top: -1rem;">Web Designer</p>
+      <div class="dots-container">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+  </section>
+  <section style="display: flex; justify-content: center; margin-top: 5rem; margin-bottom: 5rem; ">
+    <div
+      style="width: 55%; text-align: center; display: flex; justify-content: center; flex-direction: column; align-items: center;">
+      <h3 style="color: red;">Contact Us for More</h3>
+      <P style="color: gray;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique eos illo</P>
+      <div style="width: 40%; height: 1px; background-color: gray; display: flex; justify-content: center;">
+        <div style="background-color: rgb(255, 58, 3); width: 35%; height: 2px;"></div>
+      </div>
+    </div>
+  </section>
+  <section style="display: flex; justify-content: center; padding-bottom: 5rem;">
+    <div style="width: 40%;">
+      <p style="font-weight: bolder;">Phone:</p>
+      <p style="margin-bottom: 2rem; margin-top: -1.1rem; color: gray;">03094824513</p>
+
+      <p style="font-weight: bolder;">Address:</p>
+      <p style="margin-bottom: 2rem; margin-top: -1.1rem; color: gray;">New airport road</p>
+
+      <p style="font-weight: bolder;">Mail</p>
+      <p style="margin-bottom: 2rem; margin-top: -1.1rem; color: gray;">zaidbinkhalid1999@gmail.com</p>
+
+    </div>
+    <div style="width: 40%;">
+      <div style="width: 100%; ">
+        <div class="">
+          <div class="">
+            <div class="">
+              <form>
+                <div class="form-group" style="display: flex; justify-content: space-between; ">
+                  <div style="margin-right: 3rem;">
+                    <input type="text" class="form-control" id="name" placeholder="Name*">
+                  </div>
+                  <div>
+                    <input type="email" class="form-control" id="email" placeholder="Email*">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="subject" placeholder="subject">
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" id="message" rows="5" placeholder="Type your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer style="padding: 10px; text-align: center; background: #232222; color: white;">2023 &copy; Elegent website designed by zaid</footer>
+  <!-- Include Bootstrap JS -->
+</body>
+
+</html>
